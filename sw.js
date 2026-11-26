@@ -1,4 +1,4 @@
-const PREFIX="tostada-pages-alumnado-",CACHE=PREFIX+'107';
+const PREFIX="tostada-pages-alumnado-",CACHE=PREFIX+'108';
 const FILES=["./", "./index.html", "./style.css", "./core.js", "./firebase.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./student.js", "./michel.webp", "./bootstrap.js", "./qr-local.js"];
 const scope=new URL(self.registration.scope);
 const allowed=new Set(FILES.map(p=>new URL(p,scope).href));
